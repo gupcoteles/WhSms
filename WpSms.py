@@ -31,10 +31,13 @@ def message():
 
 print("attack started")
 
+counter = 0
 while True:
+    counter += 1
     try:
-        print(message())
+        print(message(), "attack: ", counter)
         time.sleep(0)
+
 
     except Exception as e:
         print("Twilio Error:", e.code, "-", e.msg, end="\n")
