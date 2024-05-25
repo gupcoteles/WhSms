@@ -1,6 +1,6 @@
 # WpSms
 
-a simple sms bomber
+a simple sms sender
 
 # Installation
 
