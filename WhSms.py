@@ -17,16 +17,16 @@ def main():
 
 args = main()
 
-account_sid = ('' + args.accountsid + '')
-auth_token = ('' + args.authtoken + '')
+account_sid = (f'{args.accountsid}')
+auth_token = (f'{args.authtoken}')
 
-from_phone = ('' + args.fromphone + '')
-to_phone = ('' + args.tophone + '')
+from_phone = (f'{args.fromphone}')
+to_phone = (f'{args.tophone}')
 
 client = Client(account_sid, auth_token)
 
 def message():
-    message = client.messages.create(body=('' + args.message + ''), from_=from_phone, to=to_phone)
+    message = client.messages.create(body=(f'{args.message}'), from_=from_phone, to=to_phone)
     return message.sid
 
 print("sending your message...")
