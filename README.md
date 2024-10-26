@@ -1,6 +1,6 @@
 # WhSms
 
-a simple sms sender
+A simple sms sender.
 
 # Installation
 
@@ -11,8 +11,15 @@ python3 -m pip install -r requirements.txt
 # Usage
 
 ```
-python3 WhSms.py -h
+python WhSms.py -h
 ```
+
+>[!NOTE]
+>You Should have installed python
+
+>[!TIP]
+>You can install python from <a href="https://www.python.org/downloads/" target="_blank">here</a>.
+
 
 This will display help for the tool. Here are all the switches it supports.
 
